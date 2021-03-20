@@ -30,3 +30,7 @@ strong{
   font-weight: bold;
   color: var(--color-primary);
 }
+.social{
+height:35px;
+fill:var(--font-color);
+}
