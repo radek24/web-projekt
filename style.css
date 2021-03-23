@@ -9,7 +9,7 @@ html {
   --color-primary: #F4A42B;
   --color-background: #1A1A1A;
   --color-inactive-button: #513D1F;
-  --font-color: #c2c2c2;
+  --font-color: #dbdbdb;
 
 }
 .theme-light {
@@ -39,4 +39,11 @@ strong{
 .social{
 height:35px;
 fill:var(--font-color);
+}
+footer a{
+text-decoration: none;
+}
+#autor{
+  font-size: 0.6em;
+  color:#6d6d6d
 }
