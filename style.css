@@ -1,49 +1,83 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100;300;400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
 /*font-family: 'Roboto Condensed', sans-serif;*/
+
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    display: inline;
+    float: left;
+}
+
+nav a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: var(--font-color);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+nav a:hover {
+    color: var(--color-primary)
 }
 
 .theme-dark {
-  --color-primary: #F4A42B;
-  --color-background: #1A1A1A;
-  --color-inactive-button: #513D1F;
-  --font-color: #dbdbdb;
+    --color-primary: #F4A42B;
+    --color-background: #1A1A1A;
+    --color-inactive-button: #513D1F;
+    --font-color: #dbdbdb;
+}
 
-}
 .theme-light {
-  --color-primary: #F4A42B;
-  --color-background: #e4e4e4;
-  --color-inactive-button: #513D1F;
-  --font-color: #1A1A1A;
+    --color-primary: #F4A42B;
+    --color-background: #e4e4e4;
+    --color-inactive-button: #513D1F;
+    --font-color: #1A1A1A;
 }
-body{
-  background-color: var(--color-background);
-  font-family: 'Roboto', sans-serif;
+
+body {
+    background-color: var(--color-background);
+    font-family: 'Roboto', sans-serif;
 }
-.main_header{
-  font-family: 'Oswald', sans-serif;
-  color: var(--color-primary);
-  font-size: 2em;
+
+.main_header {
+    font-family: 'Oswald', sans-serif;
+    color: var(--color-primary);
+    font-size: 2em;
 }
-p{
-  color:var(--font-color);
-  font-size: 1.3em;
-  font-weight: 300;
+
+p {
+    color: var(--font-color);
+    font-size: 1.3em;
+    font-weight: 300;
 }
-strong{
-  font-weight: bold;
-  color: var(--color-primary);
+
+strong {
+    font-weight: bold;
+    color: var(--color-primary);
 }
-.social{
-height:35px;
-fill:var(--font-color);
+
+.social {
+    height: 35px;
+    fill: var(--font-color);
 }
-footer a{
-text-decoration: none;
+
+footer a {
+    text-decoration: none;
 }
-#autor{
-  font-size: 0.6em;
-  color:#6d6d6d
+
+#autor {
+    font-size: 0.6em;
+    color: #6d6d6d
 }
