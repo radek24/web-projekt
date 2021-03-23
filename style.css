@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;700&family=Roboto+Slab:wght@100;200;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+/*font-family: 'Roboto Condensed', sans-serif;*/
+html {
+  scroll-behavior: smooth;
+}
 
 .theme-dark {
   --color-primary: #F4A42B;
@@ -15,11 +20,12 @@
 }
 body{
   background-color: var(--color-background);
-  font-family: 'Roboto Mono', serif;
+  font-family: 'Roboto', sans-serif;
 }
-h1{
-  font-family: 'Roboto Slab', serif;
+.main_header{
+  font-family: 'Oswald', sans-serif;
   color: var(--color-primary);
+  font-size: 2em;
 }
 p{
   color:var(--font-color);
