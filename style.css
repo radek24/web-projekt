@@ -96,7 +96,6 @@ strong {
 .social {
     height: 25px;
     fill: var(--font-color);
-    margin: 0px 40px;
 }
 
 @keyframes color-change {
@@ -116,14 +115,11 @@ strong {
 
 footer {
     text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
 }
 
 footer a {
     text-decoration: none;
+    margin: 0px 40px;
 }
 
 #autor {
