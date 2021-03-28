@@ -80,15 +80,6 @@ nav a:hover {
     --article-background: #00000038;
 }
 
-.theme-light {
-    --color-primary: #F4A42B;
-    --color-background: #e4e4e4;
-    --backgroung-element: #d1d1d1;
-    --color-inactive-button: #513D1F;
-    --font-color: #1F1F1F;
-    --article-background: #ffffff73;
-}
-
 .main_header {
     font-family: 'Oswald', sans-serif;
     color: var(--color-primary);
