@@ -14,36 +14,51 @@ nav ul {
     overflow: hidden;
 }
 
+h1 {
+    text-align: center;
+}
+
+nav ul {
+    text-align: center;
+    padding: 20px;
+}
+
 nav li {
     display: inline;
-    float: left;
 }
 
 nav a {
-    display: block;
-    padding: 8px;
+    /* display: block; */
+    padding: 10px 20px;
     text-decoration: none;
     color: var(--font-color);
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
+    text-transform: uppercase;
 }
 
 nav a:hover {
-    color: var(--color-primary)
+    color: var(--color-primary);
+    background-image: url(images/icons/circle.svg);
+    background-repeat: no-repeat;
+    background-position: center 32px;
+    background-size: 5px;
 }
 
 .theme-dark {
-    --color-primary: #F4A42B;
-    --color-background: #1A1A1A;
+    --color-primary: #f4a42b;
+    --color-background: #1F1F1F;
+    --backgroung-element: #222222;
     --color-inactive-button: #513D1F;
-    --font-color: #dbdbdb;
+    --font-color: #ffff;
 }
 
 .theme-light {
     --color-primary: #F4A42B;
     --color-background: #e4e4e4;
+    --backgroung-element: #d1d1d1;
     --color-inactive-button: #513D1F;
-    --font-color: #1A1A1A;
+    --font-color: #1F1F1F;
 }
 
 body {

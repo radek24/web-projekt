@@ -3,8 +3,7 @@ function toggleTheme() {
     if (html_element.classList == 'theme-dark') {
         html_element.classList.remove('theme-dark');
         html_element.classList.add('theme-light');
-    }
-    else{
+    } else {
         html_element.classList.remove('theme-light');
         html_element.classList.add('theme-dark');
     }
