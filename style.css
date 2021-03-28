@@ -7,6 +7,12 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    background-color: var(--color-background);
+    font-family: 'Roboto', sans-serif;
+    margin: 0px
+}
+
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -67,12 +73,6 @@ nav a:hover {
     --backgroung-element: #d1d1d1;
     --color-inactive-button: #513D1F;
     --font-color: #1F1F1F;
-}
-
-body {
-    background-color: var(--color-background);
-    font-family: 'Roboto', sans-serif;
-    margin: 0px
 }
 
 .main_header {
