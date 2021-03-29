@@ -5,7 +5,7 @@ var nadpis = document.getElementsByClassName("main_header")[0];
 function scrollFunction() {
 
 
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    if (document.body.scrollTop > 70 || document.documentElement.scrollTop > 70) {
         nadpis.style.fontSize = "1.5em";
         nadpis.style.paddingTop = "10px";
         podnadpis.style.fontSize = "0px";

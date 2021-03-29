@@ -3,6 +3,11 @@
 
 /*font-family: 'Roboto Condensed', sans-serif;*/
 
+html,
+body {
+    height: 100%;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -10,13 +15,20 @@ html {
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0px;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.404), rgba(255, 255, 255, 0)), url(images/background.jpg);
+    background-image: /*linear-gradient(to bottom, rgba(0, 0, 0, 0.404), rgba(255, 255, 255, 0)),*/
+    url(images/background.jpg);
     background-position-y: 100px;
-    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+#filler {
+    margin-top: 150px;
 }
 
 main {
     padding: 0px 20%;
+    flex: 1 0 auto;
 }
 
 nav ul {
@@ -143,9 +155,9 @@ hr {
 }
 
 footer {
-    /*position:fixed;*/
+    flex-shrink: 0;
     text-align: center;
-    bottom: 0px;
+    bottom: 0;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
