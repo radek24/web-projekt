@@ -11,13 +11,8 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0px;
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.404), rgba(255, 255, 255, 0)), url(images/background.jpg);
-    backdrop-filter: blur(12px);
     background-position-y: 100px;
-}
-
-html,
-body {
-    height: 100%;
+    padding-top: 200px;
 }
 
 main {
@@ -28,14 +23,15 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 20px;
-    overflow: hidden;
     text-align: center;
+    overflow: hidden;
 }
 
 nav {
     background-color: var(--color-background);
-    position: sticky;
-    top: 0px;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 nav li {
@@ -47,6 +43,7 @@ h1 {
 }
 
 h3 {
+    transition: 0.1s;
     text-align: center;
     font-weight: 200;
     margin: 0px;
@@ -96,6 +93,7 @@ nav a:hover {
 }
 
 .main_header {
+    transition: 0.4s;
     font-family: 'Oswald', sans-serif;
     color: var(--color-primary);
     font-size: 2em;
@@ -145,8 +143,8 @@ hr {
 }
 
 footer {
+    /*position:fixed;*/
     text-align: center;
-    position: fixed;
     bottom: 0px;
     margin-left: auto;
     margin-right: auto;
@@ -161,6 +159,8 @@ footer a {
 #autor {
     font-size: 0.6em;
     color: #6d6d6d;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
 }
 
 article {
