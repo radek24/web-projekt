@@ -9,7 +9,7 @@
     --backgroung-body: #1A1A1A;
     --color-inactive-button: #513D1F;
     --font-color: #ffff;
-    --article-background: #00000000;
+    --article-background: #00000056;
 }
 
 html,
@@ -32,7 +32,8 @@ body {
 #background-image {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.644), rgba(255, 0, 0, 0)), url(images/background.jpg);
     background-position-y: 100px;
-    background-repeat: no-repeat, repeat;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 100%;
 }
 
 #filler {
@@ -182,9 +183,12 @@ footer a {
 article {
     text-align: center;
     margin-bottom: 6%;
-    background-color: var(--article-background);
     padding: 20px 50px 50px 50px;
     margin-top: 6%;
+}
+
+.black-background {
+    background-color: var(--article-background);
 }
 
 article h2 {
