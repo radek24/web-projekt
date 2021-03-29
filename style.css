@@ -10,7 +10,7 @@ html {
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0px;
-    background-image: url(images/background.jpg);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.404), rgba(255, 255, 255, 0)), url(images/background.jpg);
     backdrop-filter: blur(12px);
     background-position-y: 100px;
 }
@@ -34,6 +34,8 @@ nav ul {
 
 nav {
     background-color: var(--color-background);
+    position: sticky;
+    top: 0px;
 }
 
 nav li {
@@ -162,11 +164,11 @@ footer a {
 }
 
 article {
-    margin-top: 6%;
     text-align: center;
     margin-bottom: 6%;
     background-color: var(--article-background);
     padding: 20px 50px 50px 50px;
+    margin-top: 6%;
 }
 
 article h2 {
