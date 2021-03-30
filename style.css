@@ -223,7 +223,7 @@ table {
     border-collapse: collapse;
 }
 
-article ul {
+.skills {
     list-style-type: none;
     width: 70%;
     margin-left: auto;
@@ -231,9 +231,44 @@ article ul {
     padding-left: 0px;
 }
 
-article li {
+.skills li {
     text-decoration: underline;
     display: inline-block;
     color: var(--font-color);
     padding: 20px;
+}
+
+.contacts {
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0px;
+}
+
+.contacts li {
+    color: var(--font-color);
+    padding: 20px;
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+.contacts a {
+    text-decoration: none;
+    color: var(--font-color);
+}
+
+@keyframes link-color-change {
+    from {
+        color: var(--font-color);
+    }
+    to {
+        color: var(--color-primary);
+    }
+}
+
+.contacts a:hover {
+    animation-name: link-color-change;
+    animation-duration: 0.1s;
+    text-decoration: none;
+    color: var(--color-primary);
 }
