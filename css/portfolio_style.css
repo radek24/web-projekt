@@ -41,19 +41,91 @@ main {
     flex: none;
 }
 
-main div img {
+img {
     width: 600px;
 }
 */
 
-.container {
-    position: relative;
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+img {
+    width: 500px;
 }
 
-main div img {
-    width: 500px;
+main {
+    padding: 0px 5%;
+    flex: none;
+    text-align: center;
+}
+
+.container {
+    display: inline-block;
+    position: relative;
+    margin: 20px;
+    /*background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.644), rgba(255, 0, 0, 0));*/
+}
+
+@keyframes image-text {
+    from {
+        color: #00000000;
+    }
+    to {
+        color: var(--font-color);
+    }
+}
+
+@keyframes image-text2 {
+    from {
+        bottom: 10px;
+    }
+    to {
+        bottom: 20px;
+    }
+}
+
+@keyframes image-text3 {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+main a:hover .overlay {
+    animation-name: image-text3;
+    animation-duration: 0.5s;
+    opacity: 1;
+}
+
+main a:hover .bottom-left {
+    animation-name: image-text2;
+    animation-duration: 0.1s;
+    bottom: 20px;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 20px;
+    left: 35px;
+    font-size: 25px;
+}
+
+main a {
+    text-decoration: none;
+    color: #00000000;
+    font-weight: 200;
+}
+
+main a:hover {
+    animation-name: image-text;
+    animation-duration: 0.1s;
+    color: var(--font-color);
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.644), rgba(255, 0, 0, 0));
+    opacity: 0;
 }
