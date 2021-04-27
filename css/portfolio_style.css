@@ -9,14 +9,23 @@
     --article-background: #00000056;
 }
 
+
+/*
 .container {
     position: relative;
-    display: inline-block;
-    text-align: left;
+
+    display: inline-flex;
+  
+    text-align: center;
     color: white;
     z-index: -5;
     padding: 10px;
     font-family: 'Roboto', sans-serif;
+    width: 600px;
+}
+
+.container:hover {
+    color: black;
 }
 
 .bottom-left {
@@ -24,9 +33,27 @@
     bottom: 25px;
     left: 30px;
     font-size: 20px;
+    z-index: 0;
 }
 
 main {
     padding: 0px 10%;
-    flex: 1 0 auto;
+    flex: none;
+}
+
+main div img {
+    width: 600px;
+}
+*/
+
+.container {
+    position: relative;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+main div img {
+    width: 500px;
 }
