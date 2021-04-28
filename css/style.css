@@ -30,7 +30,7 @@ body {
 }
 
 #background-image {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.644), rgba(255, 0, 0, 0)), url(images/background.jpg);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.644), rgba(255, 0, 0, 0)), url(../images/background.jpg);
     background-position-y: 100px;
     background-repeat: no-repeat, no-repeat;
     background-size: 100%;
@@ -58,6 +58,7 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 1;
 }
 
 nav li {
@@ -102,11 +103,12 @@ nav a {
 nav a:hover {
     animation-name: text-color-change;
     animation-duration: 0.1s;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
     color: var(--color-primary);
-    background-image: url(images/icons/circle.svg);
+    background-image: url(../images/icons/circle.svg);
     background-repeat: no-repeat;
     background-position: center 20px;
-    background-size: 3px;
+    background-size: 4px;
 }
 
 .main_header {
@@ -197,6 +199,28 @@ article h2 {
     color: var(--color-primary);
     font-size: 2.5em;
     font-weight: 400;
+}
+
+article h3 {
+    color: var(--color-primary);
+    font-size: 1.7em;
+    font-weight: 400;
+}
+
+.download-text p {
+    font-size: 1.3em;
+    padding-left: 40px;
+    margin-bottom: 70px;
+}
+
+p a {
+    text-decoration: underline;
+    color: var(--font-color);
+    font-size: 1.3em;
+}
+
+p a:hover {
+    color: var(--color-primary);
 }
 
 
