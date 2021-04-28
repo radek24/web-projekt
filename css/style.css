@@ -33,7 +33,7 @@ body {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.644), rgba(255, 0, 0, 0)), url(../images/background.jpg);
     background-position-y: 100px;
     background-repeat: no-repeat, no-repeat;
-    background-size: 100%;
+    background-size: 100% none;
 }
 
 #filler {
@@ -168,6 +168,7 @@ footer {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+    padding-bottom: 40px;
 }
 
 footer a {
