@@ -87,7 +87,7 @@ main a:hover {
 
 .overlay {
     position: absolute;
-    bottom: 3px;
+    bottom: 4px;
     width: 100%;
     height: 100%;
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.644), rgba(255, 0, 0, 0));
