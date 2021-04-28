@@ -297,3 +297,15 @@ table {
     text-decoration: none;
     color: var(--color-primary);
 }
+
+
+/*responzivita*/
+
+
+/*
+@media screen and (max-width: 800px) {
+    .main_header {
+        font-size: 4em;
+    }
+}
+*/
