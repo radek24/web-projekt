@@ -298,6 +298,15 @@ table {
     color: var(--color-primary);
 }
 
+.burger {
+    display: inline-block;
+    position: fixed;
+    top: 43px;
+    right: 30px;
+    border: none;
+    cursor: pointer;
+}
+
 
 /*responzivita*/
 
