@@ -301,11 +301,4 @@ table {
 
 /*responzivita*/
 
-
-/*
-@media screen and (max-width: 800px) {
-    .main_header {
-        font-size: 4em;
-    }
-}
-*/
+@media (max-width: 800px) {}
