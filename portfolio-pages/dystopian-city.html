@@ -9,6 +9,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/portfolio_page_style.css">
+    <link rel="stylesheet" href="../plugins/lightbox/css/lightbox.css" type="text/css">
+    <script src="../plugins/lightbox/js/lightbox-plus-jquery.min.js"></script>
+    <script>
+        lightbox.option({
+            'disableScrolling': true,
+            'fadeDuration': 200,
+            'imageFadeDuration': 200,
+            'positionFromTop': 200,
+        })
+    </script>
 </head>
 
 <body>
@@ -26,10 +36,12 @@
     <div id="filler"></div>
     <main>
         <article>
-            <h2>Název práce</h2>
-            <p>popis práce</p>
-            <img src="..\images\gallery\miniatury-portfolio\box-blue-M.png">
-            <p class="description">popis fotky</p>
+            <h2>Bar in dystopian city</h2>
+            <p>můj oblíbený styl</p>
+            <a href="..\images\gallery\projekty\Dystopian\dystopian_bar.png" data-lightbox="galerie"> <img src="..\images\gallery\projekty\Dystopian\dystopian_bar.png"></a>
+            <p class="description">Finální scéna</p>
+            <a href="..\images\gallery\projekty\Dystopian\clay.png" data-lightbox="galerie"> <img src="..\images\gallery\projekty\Dystopian\clay.png"></a>
+            <p class="description">clay render</p>
         </article>
 
     </main>

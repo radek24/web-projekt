@@ -9,6 +9,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/portfolio_page_style.css">
+    <link rel="stylesheet" href="../plugins/lightbox/css/lightbox.css" type="text/css">
+    <script src="../plugins/lightbox/js/lightbox-plus-jquery.min.js"></script>
+    <script>
+        lightbox.option({
+            'disableScrolling': true,
+            'fadeDuration': 200,
+            'imageFadeDuration': 200,
+            'positionFromTop': 200,
+        })
+    </script>
 </head>
 
 <body>
@@ -26,10 +36,15 @@
     <div id="filler"></div>
     <main>
         <article>
-            <h2>Název práce</h2>
-            <p>popis práce</p>
-            <img src="..\images\gallery\miniatury-portfolio\box-blue-M.png">
-            <p class="description">popis fotky</p>
+            <h2>Spaceships</h2>
+            <p>Někdy na začátku roku 2020 jsem se rozhodl udělat sérii detailních vesmírných lodí za pomocí metody greebles a jedno město</p>
+            <a href="..\images\gallery\projekty\Spaceships\lod.png" data-lightbox="galerie"> <img src="..\images\gallery\projekty\Spaceships\lod.png"></a>
+            <p class="description">první loď</p>
+            <a href="..\images\gallery\projekty\Spaceships\radovan-stastny-united2.jpg" data-lightbox="galerie"> <img src="..\images\gallery\projekty\Spaceships\radovan-stastny-united2.jpg"></a>
+            <p class="description">velká stanice</p>
+            <a href="..\images\gallery\projekty\Spaceships\mesto_bezmlhy+jitter+noc+jinebarvy.png" data-lightbox="galerie"> <img src="..\images\gallery\projekty\Spaceships\mesto_bezmlhy+jitter+noc+jinebarvy.png"></a>
+            <p class="description">město</p>
+
         </article>
 
     </main>

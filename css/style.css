@@ -134,8 +134,8 @@ strong {
 }
 
 hr {
-    width: 20%;
-    margin-bottom: 15px;
+    width: 50vw;
+    margin-bottom: 25px;
     height: 2px;
     border-width: 0;
     background-color: rgba(102, 101, 101, 0.479)
@@ -177,7 +177,7 @@ footer a {
 }
 
 #autor {
-    font-size: 0.6em;
+    font-size: 12px;
     color: #6d6d6d;
     margin-bottom: 0px;
     padding-bottom: 10px;

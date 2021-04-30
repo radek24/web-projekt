@@ -9,6 +9,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/portfolio_page_style.css">
+    <link rel="stylesheet" href="../plugins/lightbox/css/lightbox.css" type="text/css">
+    <script src="../plugins/lightbox/js/lightbox-plus-jquery.min.js"></script>
+    <script>
+        lightbox.option({
+            'disableScrolling': true,
+            'fadeDuration': 200,
+            'imageFadeDuration': 200,
+            'positionFromTop': 200,
+        })
+    </script>
 </head>
 
 <body>
@@ -26,10 +36,14 @@
     <div id="filler"></div>
     <main>
         <article>
-            <h2>Název práce</h2>
-            <p>popis práce</p>
-            <img src="..\images\gallery\miniatury-portfolio\box-blue-M.png">
-            <p class="description">popis fotky</p>
+            <h2>Rail gun</h2>
+            <p>Tahle práce vznikla pro krátký animovaný projekt Sedisverse. Byla vytvořena, aby fungovala v EEVEE. Jedná se o vlastní design</p>
+            <a href="..\images\gallery\projekty\Sci-fi-rifle\gun_cycles.png" data-lightbox="galerie"> <img src="..\images\gallery\projekty\Sci-fi-rifle\gun_cycles.png"></a>
+            <p class="description">Render v Cycles</p>
+            <a href="..\images\gallery\projekty\Sci-fi-rifle\0001.jpg" data-lightbox="galerie"> <img src="..\images\gallery\projekty\Sci-fi-rifle\0001.jpg"></a>
+            <p class="description">Render v EEVEE</p>
+            <a href="..\images\gallery\projekty\Sci-fi-rifle\0002.jpg" data-lightbox="galerie"> <img src="..\images\gallery\projekty\Sci-fi-rifle\0002.jpg"></a>
+            <p class="description">2. pohled, render v EEVEE</p>
         </article>
 
     </main>
