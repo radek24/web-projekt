@@ -103,3 +103,9 @@ article {
     padding: 0px 0px 0px 0px;
     margin-top: 250px;
 }
+
+@media (max-width: 800px) {
+    article img {
+        width: 400px;
+    }
+}
