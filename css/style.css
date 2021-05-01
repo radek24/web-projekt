@@ -349,4 +349,17 @@ table {
         text-align: left;
         padding-left: 20px;
     }
+    .skills {
+        list-style-type: circle;
+        width: 100%;
+    }
+    .skills li {
+        text-decoration: underline;
+        padding: 10px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    #contacts_article {
+        padding: 0px;
+    }
 }

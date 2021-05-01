@@ -23,6 +23,15 @@ main {
     margin-top: 5px;
 }
 
-img {
-    width: 35vw;
+article img {
+    width: 40vw;
+}
+
+@media (max-width: 800px) {
+    article img {
+        width: 90vw;
+    }
+    article {
+        padding: 0px;
+    }
 }

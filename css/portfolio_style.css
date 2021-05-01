@@ -106,6 +106,6 @@ article {
 
 @media (max-width: 800px) {
     article img {
-        width: 400px;
+        width: 80vw;
     }
 }
