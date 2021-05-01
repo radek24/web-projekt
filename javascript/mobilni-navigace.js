@@ -6,7 +6,6 @@ function zobrazNavigaci() {
         img_burger.style.filter = " grayscale(100)";
     } else {
         navigace.style.display = "block";
-
         img_burger.style.filter = " grayscale(0)";
     }
 }
