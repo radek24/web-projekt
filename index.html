@@ -8,11 +8,11 @@
     <meta name="author" content="Radovan Stastny">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <script src="../javascript/mobilni-navigace.js">
-    </script>
+    <script src="../javascript/mobilni-navigace.js"></script>
+    <script src="../javascript/tento_script_se_nezbavuje_reklamy.js"></script>
 </head>
 
-<body id="background-image">
+<body id="background-image" onload="pokus()">
     <nav id="nav_id">
         <button class="burger" onclick="zobrazNavigaci()">  <img id="burger_img" src="images/icons/hamburger.svg"></button>
         <h1 class="main_header">RADOVAN ŠŤASTNÝ</h1>
@@ -26,6 +26,7 @@
         </ul>
     </nav>
     <div id="filler"></div>
+    
     <main>
         <article class="black-background">
             <h2>Header</h2>
@@ -33,7 +34,7 @@
                 asd pretium lectus id turpis. Pellentesque arcu. Aenean id metus id velit ullamcorper pulvinar. Duis condimentum augue id magna semper rutrum. Integer malesuada. Integer pellentesque quam vel velit. Integer lacinia. Aliquam ante.
             </p>
         </article>
-
+   
     </main>
     <footer>
         <hr>
@@ -60,6 +61,7 @@
         </a>
         <p id="autor">Web by Radovan Šťastný 2021</p>
     </footer>
+    
     <script src="javascript/shrink_nav_onscroll.js"></script>
 </body>
 
