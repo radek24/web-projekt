@@ -130,6 +130,17 @@ p {
     font-weight: 300;
 }
 
+article a {
+    color: var(--font-color);
+    font-size: 1.4em;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+article a:hover {
+    color: var(--color-primary);
+}
+
 strong {
     font-weight: bold;
     color: var(--color-primary);
@@ -215,13 +226,13 @@ article h3 {
     margin-bottom: 70px;
 }
 
-p a {
+.odkaz {
     text-decoration: underline;
     color: var(--font-color);
     font-size: 1.3em;
 }
 
-p a:hover {
+.odkaz:hover {
     color: var(--color-primary);
 }
 
