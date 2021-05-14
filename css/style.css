@@ -335,6 +335,11 @@ table {
     margin: 0px;
 }
 
+.endora:hover {
+    color: var(--color-primary);
+    transition: 0.1s;
+}
+
 
 /*responzivita*/
 
@@ -390,5 +395,6 @@ table {
         overflow: hidden;
         max-height: 0;
         transition: 0.2s;
+        transition-timing-function: ease-out;
     }
 }
