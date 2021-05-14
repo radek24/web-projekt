@@ -52,6 +52,7 @@ nav ul {
     padding: 20px;
     text-align: center;
     overflow: hidden;
+    max-height: max-content;
 }
 
 nav {
@@ -339,7 +340,7 @@ table {
 
 @media (max-width: 800px) {
     nav ul {
-        display: none;
+        max-height: 0px;
     }
     nav ul li {
         display: block;
@@ -350,22 +351,24 @@ table {
     nav a {
         display: block;
         padding: 7px;
-        margin: 3px 0px 3px 0px;
+        margin: 7px 0px 3px 0px;
+        padding-top: 15px;
     }
     .burger {
         display: inline-block;
+        filter: grayscale(0);
     }
     main {
         padding: 0px 5%;
     }
     .main_header {
         text-align: left;
-        padding-left: 10px;
+        padding-left: 40px;
         width: 210px;
     }
     h3 {
         text-align: left;
-        padding-left: 20px;
+        padding-left: 50px;
     }
     .skills {
         list-style-type: circle;
@@ -379,5 +382,13 @@ table {
     }
     #contacts_article {
         padding: 0px;
+    }
+    .max-height-class {
+        max-height: 0 !important;
+    }
+    nav ul {
+        overflow: hidden;
+        max-height: 0;
+        transition: 0.2s;
     }
 }
