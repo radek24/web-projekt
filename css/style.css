@@ -342,6 +342,39 @@ table {
 }
 
 
+/*scrolbar*/
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    background: var(--backgroung-body);
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: rgb(82, 82, 82);
+    border-radius: 10px;
+    border: 4px solid var(--backgroung-body);
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-primary);
+}
+
+
 /*responzivita*/
 
 @media (max-width: 800px) {
