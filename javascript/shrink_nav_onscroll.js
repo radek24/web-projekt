@@ -13,7 +13,7 @@ function scrollFunction() {
         burger_nav.style.top = "17px";
         burger_img.style.height = "20px";
     } else {
-        nadpis.style.fontSize = "2em";
+        nadpis.style.fontSize = "2.3em";
         nadpis.style.paddingTop = "30px";
         podnadpis.style.fontSize = "0.8em";
         burger_nav.style.top = "40px";
