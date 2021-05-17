@@ -54,6 +54,7 @@ nav ul {
     text-align: center;
     overflow: hidden;
     max-height: max-content;
+    transition: font-size 0.2s;
 }
 
 nav {
