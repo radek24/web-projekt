@@ -27,7 +27,7 @@ article img {
     width: 40vw;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 855px) {
     article img {
         width: 90vw;
     }

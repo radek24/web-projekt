@@ -378,7 +378,7 @@ table {
 
 /*responzivita*/
 
-@media (max-width: 800px) {
+@media (max-width: 855px) {
     nav ul {
         max-height: 0px;
     }
