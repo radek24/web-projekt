@@ -27,6 +27,10 @@ article img {
     width: 40vw;
 }
 
+article h2 {
+    font-family: 'Oswald', sans-serif;
+}
+
 @media (max-width: 800px) {
     article img {
         width: 90vw;
