@@ -3,38 +3,46 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Radovan Šťastný</title>
+    <title>Továrna</title>
     <link rel="shortcut icon" type="image/jpg" href="../images/icons/favicon.ico" />
-    <meta name="description" content="web o 3D grafice">
+    <meta name="description" content="Web">
     <meta name="author" content="Radovan Stastny">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/portfolio_page_style.css">
+    <link rel="stylesheet" href="../plugins/lightbox/css/lightbox.css" type="text/css">
+    <script src="../plugins/lightbox/js/lightbox-plus-jquery.min.js"></script>
     <script src="../javascript/mobilni-navigace.js"></script>
     <script src="../javascript/tento_script_se_nezbavuje_reklamy.js"></script>
+    <script>
+        lightbox.option({
+            'disableScrolling': true,
+            'fadeDuration': 200,
+            'imageFadeDuration': 200,
+            'positionFromTop': 200,
+        })
+    </script>
 </head>
 
-<body id="background-image" onload="pokus()">
-
-    <nav id="nav_id">
-        <button class="burger" onclick="zobrazNavigaci()">  <img id="burger_img" src="images/icons/hamburger.svg"></button>
+<body onload="pokus()">
+    <nav id="nav_id"><button class="burger" onclick="zobrazNavigaci()">  <img id="burger_img" src="../images/icons/hamburger.svg"></button>
         <h1 class="main_header">RADOVAN ŠŤASTNÝ</h1>
         <h3 id="grafik">3D GRAFIK</h3>
         <ul class="max-height-class">
-            <li><a href="index.html">Domů</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="zkusenosti.html">Zkušenosti</a></li>
-            <li><a href="kontakt.html">Kontakt</a></li>
-            <li><a href="zdroje.html">Ke stažení</a></li>
+            <li><a href="../index.html">Domů</a></li>
+            <li><a href="../portfolio.html">Portfolio</a></li>
+            <li><a href="../zkusenosti.html">Zkušenosti</a></li>
+            <li><a href="../kontakt.html">Kontakt</a></li>
+            <li><a href="../zdroje.html">Ke stažení</a></li>
         </ul>
     </nav>
     <div id="filler"></div>
-
     <main>
-        <article class="black-background">
-            <h2>Ahoj</h2>
-            <p>Jsem Radek a už asi 2 roky se věnuju <strong>3D grafice</strong>. Ještě někdy programuju scripty pro blender v Pythonu (můžete stáhnout na stránce ke stažení). Na stránce portfolio najdete nějakou moji práce. Jestli mě chcete kontaktovat,
-                podívejte se na stránku kontakty.
-            </p>
+        <article>
+            <h2>Továrna</h2>
+            <p>Moje první scéna.</p>
+            <a href="../images/gallery/projekty/Factory/radovan-stastny-factory.jpg" data-lightbox="galerie"> <img src="../images/gallery/projekty/Factory/radovan-stastny-factory.jpg" alt="propiska"></a>
+            <p class="description"> render v EEVEE z důvodu náročnosti volumetrics v cycles</p>
         </article>
 
     </main>
@@ -63,7 +71,7 @@
         </a>
         <p id="autor">Web by Radovan Šťastný 2021. <br> Hosting by <a class="endora" href="https://www.endora.cz/objednavka/objednat?utm=kafo&program=plus&order-tld=online">Endora</a></p>
     </footer>
-    <script src="javascript/shrink_nav_onscroll.js"></script>
+    <script src="../javascript/shrink_nav_onscroll.js"></script>
 </body>
 
 </html>
